@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel.woff) format(woff);
+}
+@import url(font-awesome.min.css);
+body{
+    
+    direction: rtl;
+}
+
+.carousel-caption{
+    color: black; 
+} 
+a{
+    text-decoration: none !important;
+    color: #1a237e;
+    
+
+}
+.custom-input-group-text{
+   
+   background-color: #33cfff !important;
+   color: #ffffff !important;
+}
+/* project style */
+/* top header section */
+#custom-container-fluid{
+    background-image: url(../img/tsm.jpg);
+    height: 300px;
+    background-size: cover;
+}
+/* //////////////////////////////////////////// */
+.flex-header{
+    display: flex;
+    flex-direction: column;
+}
+ #snav1{
+    color: #ffffff;}
+    .navsiyah{
+        justify-content: center;
+    }
+    #mynav{
+        background-color: #1d1a5e   ;
+    }
+    #herfe{
+        font-size: x-small;
+        background-color: #7c4dff;
+        color: white;
+    }
+    .img-in{
+        /* position: relative; */
+        /* overflow: hidden; */
+        border: 2px solid red;
+        height: 600px;
+    }
+    .sample{
+        border: 2px solid black;
+        
+    }
+    #vorod{
+        background-color: transparent;
+        color:rgba(102, 102, 102, 0.85);
+        transition: all 02s;
+        font-size: 1.04em !important;
+    }
+    
+
+    /* -------section2------ */
+    #titr1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #343352;
+        
+    }
+    
+    .tx-container{
+        margin-top: 120px !important;
+        
+    }
+    @media only screen and (max-width: 768px) {
+        .tx-container {
+          margin-top: 20px!important;
+          margin-bottom: 0px!important;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .pic-container {
+          margin-top: 0px!important;
+        }
+      }
+    
+    #section-title{
+        border-bottom: 2px solid #ececec;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        color: #1a237e;
+        
+    }
+    #lis{
+        list-style-type: circle !important;
+    }
+    .psmal{
+        font-size:medium!important;
+        line-height: 1.6;
+        font-style: normal;
+    }
+    .button{
+        cursor: pointer;
+        color: #ffffff;
+        background-color: blueviolet;
+        text-align: center;
+        justify-content: center;
+        border-radius: 7px;
+        text-align: center;
+    }
+    .raygan-text{
+        width: 50%;
+        height: 300px;
+        background-color: #ffffff;
+    }
+    .raygan-pic{
+        width: 50%;
+        height: 300px;
+        background-color: #eeee;
+        
+    }
+    .custom-shadow{
+        box-shadow: 0px 0px 14px 3px rgba(206,206,219,.17);
+    }
+    .cust-flex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .post-item{
+        display: flex;
+        max-width: 50%;
+        flex-basis: 50%;
+        box-sizing: border-box;
+    }
+    .col-inner{
+        margin-left: auto;
+        margin-right: 0;
+        box-shadow: 0px 0px 14px 3px rgba(206,206,219,.17) !important;
+        border-radius: 10px !important;
+        overflow: hidden !important;
+        width: 100%;
+
+           }
+    .box{
+        display: table;
+        width: 100%;
+        position: relative;
+    }
+    .box-image{
+        width: 40% ;
+        direction: ltr;
+        display: table-cell;
+        vertical-align: middle;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .timg{
+        object-fit: cover;
+        max-width: 100%;
+        margin: 0 ,auto;
+        direction: ltr;
+    }
+    .box-text{
+        padding-left: 1.5em; 
+        padding-right: 1.5em;
+        display: table-cell;
+        vertical-align: middle;
+        direction: rtl;
+        text-align: right;
+        position: relative; 
+     
+    }
+    @media screen and (max-width:800px){
+        .cust-flex{
+            flex-wrap: wrap;
+        }
+        .post-item{
+            flex-basis: 100%;
+            width: 100%;
+        }
+
+    }
+    .cust-btn{
+        background-color: #7c4dff;
+        color: #ffffff;
+    }
+    .cust-btn:hover{
+        opacity: 1 !important;
+        color: #ffffff !important;
+    }
+    
+    .colf-cus{
+        background-color: #1a237e;
+        border-top:1px solid rgba(0,0,0,0.05) ;  
+    }
+    .foot-txt{
+        padding: 30px 0 0;
+        margin-bottom: 1.05em;
+        color: #f1f1f1;
+        
+    }
+    .likhat{
+        text-align: right;
+        margin: 0px;
+        border-bottom: 1px solid rgba(206,206,219,.13);
+    }
+    .amenu1{
+        color: #f1f1f1 !important;
+    }
+    .afooter{
+        color: rgba(255,255,255,0.5);
+        background-color: #000035;
+        padding: 10 0 15;
+        font-size: 0.9em;
+    }
+    /* //////////////////////////////////////////////////////////////////////////// */
+    .main-div{
+        background-image: url("https://webkima.com/wp-content/uploads/2020/12/webkima-page-back.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+    #img1{
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    .sec-titel{
+        position: relative;
+        align-items: center;
+        justify-content:space-between;
+        width: 100%;
+        display: flex;
+        
+        
+    }
+    .sec-titel b{
+        display: block;
+        -webkit-box-flex: 1;
+        flex: 1;
+        height: 2px;
+        opacity: 1;
+        background-color: currentColor;
+    }
+    .aks{
+        width: 199px;
+        box-sizing: border-box;
+        align-items: center;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 auto 1em;
+        position: relative;
+    }
+    .mohtava{
+        justify-content: center;
+        color: #343352;
+
+    }
+    .titr-acc{
+        padding: 20px 20px 20px 20px;
+        margin-left: 0px;
+        margin-right: auto;
+        color: #343352;
+    
+    }
+    #headingOne{
+        text-decoration: none;
+    }
+    .bg-cust{
+       background-color: #036493;
+    }
+    #step{
+        opacity: 0.6;
+    }
+    .prog-cust{
+        border: 5px solid  rgba(0,0,0,.1);;
+        border-radius: 25px;
+        box-shadow: inset 0 0 1px 1px rgba(0,0,0,.05);
+        
+    }
+    .star{
+        color:#790000;
+        margin-left: 0;
+
+    }
+    #semat{
+        display: block;
+    }
+    .sabt-btn{
+        background-color: #7c4dff;
+    }
+        
